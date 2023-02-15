@@ -1,0 +1,87 @@
+table{
+  border :  2px solid black;
+}
+th ,td{
+  border-top: 2px  solid black;
+  padding: 15px;
+  
+}
+tr:nth-child(odd) {
+  background-color:#efebef ;
+} 
+.details-form{
+  display: flex;
+  justify-content: space-around;
+}
+.pages{
+  display: flex;
+
+
+}
+.page{
+  padding: 10px;
+  background-color: #d6dbd6;
+  margin: 8px;
+}
+.page:hover{
+  background-color: #efebef;
+}
+
+.App{
+  display: flex;
+  
+}
+.sidebar-color{
+  background-color:#d6dbd6 ;
+  padding: 5px 10px;
+
+  
+}
+.sidebar-color,.list-items{
+  cursor: pointer;  
+}
+.arrow{
+  text-align: center;
+  
+}
+.list{
+  list-style: none;
+
+}
+.list-items{
+  padding: 5px;
+ font-size: large;
+}
+
+.form-data  {
+  border: 1px solid black;
+padding: 30px 50px;
+border-radius: 25px;
+margin:70px 60px;
+}
+.input-head{
+  padding: 5px;
+}
+.input-div{
+  padding: 30px;
+}
+input{
+  background-color: #efebef;
+}
+
+.buttons{
+  background-color: #d6dbd6;
+  padding: 8px 15px;
+  border-radius: 7px ;
+}
+.dashboard{
+  margin: 50px 50px;
+}
+.import{
+  
+   margin:10px
+}
+.save{
+margin: 10px;
+}
+
