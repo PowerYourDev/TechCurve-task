@@ -9,8 +9,10 @@ function MainDashBoard(info) {
   const [tablePage, setTablePage] = useState([])
 
   useEffect(() => {
+    
     setTablePage(info.info?.slice(0, 10))
-  }, [])
+ 
+ },[info])
   
   const pageHandler = (pageNumber) => {
     setTablePage(info?.info?.slice((pageNumber * 10) - 10, pageNumber * 10))
